@@ -1,0 +1,9 @@
+.navbar button {
+    border: none;
+    background-color: transparent; 
+    padding: 1rem; 
+  }
+
+  .bi-card {
+    font-size: 20px;
+  }
