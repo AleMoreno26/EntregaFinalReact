@@ -1,0 +1,58 @@
+.carrito-item {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 0.9rem;
+}
+
+.carrito-item .imagen {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.carrito-item .contenido {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.carrito-item .titulo {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.carrito-item .detalles {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+}
+
+.carrito-item .precio,
+.carrito-item .cantidad,
+.carrito-item .precio-total {
+  margin-right: 10px;
+}
+
+.carrito-item .cantidad {
+  display: flex;
+  align-items: center;
+}
+
+.carrito-item .eliminar {
+  margin-left: auto; 
+  background-color: #ff0000; 
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.carrito-item .eliminar:hover {
+  background-color: #cc0000; 
+}

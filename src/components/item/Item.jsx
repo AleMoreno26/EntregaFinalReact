@@ -2,7 +2,7 @@ import './Item.css';
 import { Link } from 'react-router-dom';
 
 export default function Item({ producto }) {
-  
+
   return (
     <div key={producto.id} className='producto-detalle'>
       <img className='imagen' src={producto.imagen} alt={producto.titulo} />
@@ -15,7 +15,7 @@ export default function Item({ producto }) {
           <p className='precio'>${producto.precio}</p>
           <Link to={`/item/${producto.id}`} className="btn btn-link btn-ver-mas">Ver más</Link>
         </div>
-      </div> 
+      </div>
     </div>
   );
 }

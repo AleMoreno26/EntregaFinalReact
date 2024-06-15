@@ -7,3 +7,13 @@
   .bi-card {
     font-size: 20px;
   }
+  .navbar .cart-link {
+    text-decoration: none;
+    color: black;
+    padding-left: 15px;
+  }
+
+  .navbar .ingresar-link {
+    text-decoration: none;
+    color: black;
+  }
